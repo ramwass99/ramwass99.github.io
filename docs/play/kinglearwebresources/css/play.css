@@ -257,12 +257,11 @@ input[type="checkbox"] {
   nav ul li {
     flex: 0 0 auto; 
     width: 100%;
+    
   }
-
-    .home {
-      text-align: center;
-
-    }
-
+ .Home {
+    
+  }
+    
 }
 
