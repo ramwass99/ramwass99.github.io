@@ -5,7 +5,7 @@
 }
 
 html {
-scroll-padding-top: 70px;
+  scroll-padding-top: 79px;
 
 }
 
@@ -27,9 +27,12 @@ ul {
   list-style: none;
   display: flex;
   align-items: center;
-  justify-content: flex-end;
+  justify-content: space-around;
   font-size: 0.8em;
 }
+
+
+
 
 li ul {
   display: none;
@@ -47,6 +50,8 @@ nav ul li a {
   text-decoration: none;
   margin: 0.8rem 0rem;
   display: block;
+  color: #d7dfca;
+  font-size: 1.5em;
 }
 
 nav ul li:hover {
@@ -75,11 +80,16 @@ section {
 .dramatishead {
   text-align: center;
   background-color: #8f9e74;
+  margin-top: 100px;
+  margin-bottom: 20px;
+  padding: 20px;
+  
 }
 
 .dramatis_personae {
   width: 50%;
   margin: 3em auto;
+  line-height: 2em;
 }
 
 p.characternamedramatis {
@@ -107,14 +117,21 @@ img {
 
 ._idGenObjectAttribute-1,
 ._idGenObjectAttribute-2,
-._idGenObjectAttribute-3,
 ._idGenObjectAttribute-4,
-._idGenObjectAttribute-5,
-._idGenObjectAttribute-6 {
+._idGenObjectAttribute-5 {
   max-width: 70%;
   display: block;
-  
+  margin: 8px auto;
 }
+
+._idGenObjectAttribute-3,
+._idGenObjectAttribute-6{
+  max-width: 70%;
+  display: block;
+  padding-top: 20px;
+}
+
+
 
 h1.act {
   text-align: center;
@@ -201,7 +218,11 @@ input[type="checkbox"] {
 }
 
 
-
+/* @media screen and {max-width: 3000px
+    .play[
+      width 70%;
+    ]
+} */
 
 
 @media screen and (max-width: 700px) {
@@ -217,6 +238,7 @@ input[type="checkbox"] {
     margin-right: 20px;
     cursor: pointer;
     color: #e9ece4;
+    font-size: 2em;
   }
 
   input[type="checkbox"]:checked ~ ul {
