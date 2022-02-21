@@ -79,7 +79,7 @@ button:hover {
   main {
     width: 100%;
     flex-wrap: wrap;
-    flex-direction: column;
+    flex-direction: row;
   }
   
   
