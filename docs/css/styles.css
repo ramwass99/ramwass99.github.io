@@ -1,266 +1,72 @@
-* {
-  margin: 0;
-  padding: 0;
-  box-sizing: border-box;
-}
-
-html {
-  scroll-padding-top: 79px;
-
-}
-
 body {
+  background-color: #8f9e74;
+  margin: 0;
   font-family: "EB Garamond", serif;
   
 }
 
-nav {
-  width: 100%;
-  position: fixed;
-  top: 0;
-  left: 0;
-  background-color: #6b7e47;
-  z-index: 100;
-}
-
-ul {
-  list-style: none;
-  display: flex;
-  align-items: center;
-  justify-content: space-around;
-  font-size: 0.8em;
-}
-
-
-
-
-li ul {
-  display: none;
-  position: absolute;
-  background-color: #8f9e74;
-}
-
-nav ul li {
-  flex: 0 0 7rem;
-  text-align: center;
-  padding: 0;
-}
-
-nav ul li a {
-  text-decoration: none;
-  margin: 0.8rem 0rem;
-  display: block;
-  color: #d7dfca;
+header {
+  background-color: #e3debb;
   font-size: 1.5em;
 }
 
-nav ul li:hover {
-  background-color: #8f9e74;
-}
-
-nav ul li a:hover {
-  color: white;
-}
-
-nav ul li:hover ul {
-  display: flex;
-  flex-direction: column;
-}
-
-nav ul li ul li {
-  flex: 0 1 auto;
-  width: 7rem; 
-}
-
-section {
-  border: 0;
-}
-
-
-.dramatishead {
+h1 {
   text-align: center;
-  background-color: #8f9e74;
-  margin-top: 100px;
-  margin-bottom: 20px;
+  font-family: "EB Garamond", serif;
+  color: #5c5a39;
   padding: 20px;
-  
 }
 
-.dramatis_personae {
-  width: 50%;
-  margin: 3em auto;
-  line-height: 2em;
-}
-
-p.characternamedramatis {
-  color: #6b7e47;
-}
-
-span.character_role {
-  color: black;
-}
-
-.play {
-  width: 50%;
-  margin: 3em auto;
-  padding: 1.5em;
+main {
+  width: 70%;
+  max-width: 900px; 
+  margin: 0 auto;
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap; 
+  justify-content: space-between;
 }
 
 figure {
+  
+  margin: 0;
+  padding: 0 1em;
+  
+  flex-basis: 300px;
+  flex-grow: 1;
+  flex-shrink: 1;
+}
+
+section {
+  padding: 0 1em;
+  flex-basis: 300px;
+  flex-grow: 1;
+  flex-shrink: 1;
+  
 }
 
 img {
-  /* width: 50%;
-  display: block;
-  margin: 12px auto; */
+  width: 100%;
+  margin: 0 auto;
 }
 
-._idGenObjectAttribute-1,
-._idGenObjectAttribute-2,
-._idGenObjectAttribute-4,
-._idGenObjectAttribute-5 {
-  max-width: 70%;
-  display: block;
-  margin: 8px auto;
-}
-
-._idGenObjectAttribute-3,
-._idGenObjectAttribute-6{
-  max-width: 70%;
-  display: block;
-  padding-top: 20px;
-}
-
-
-
-h1.act {
+footer {
   text-align: center;
-  background-color: #8f9e74;
-}
-
-.otheract {
-  text-align: center;
-  background-color: #8f9e74;
-}
-
-p.character {
-}
-
-.character_role {
-}
-
-h1.dramatishead {
-}
-
-h2.location {
-  text-align: center;
-}
-
-.location {
-  font-size: 1em;
-  padding-top: 20px;
-  padding-bottom: 20px;
-  background-color: #e9ece4;
-}
-
-p.prose {
-}
-
-h2.firstscene {
-  text-align: center;
-  background-color: #d7dfca;
-}
-
-h2.scene {
-  text-align: center;
-  background-color: #d7dfca;
-}
-
-h2.stagedirectionmain {
-  font-size: 0.95em;
-  padding-top: 20px;
-  padding-bottom: 10px;
-  font-style: italic;
+  margin-top: 20px;
+  color: #e3debb;
 }
 
 
-
-.verseline,
-.speechaftercharacter {
-  margin: 0 0 0.4em 8em;
-}
-
-p.prose {
-  margin: 0 0 0.4em 8em;
-}
-
-span.character_role {
-}
-
-span.stage_directions_inline {
-}
-
-.character_beforespeech {
-  display: block;
-  position: relative;
-  left: -8em;
-  top: 1em;
-  width: 4em;
-}
-
-.hamburger {
-  display: none;
-
-}
-
-input[type="checkbox"] {
-  display: none;
-}
-
-
-/* @media screen and {max-width: 3000px
-    .play[
-      width 70%;
-    ]
-} */
-
-
-@media screen and (max-width: 700px) {
-  nav ul {
-    display: none;
-    flex-direction: column;
-  }
-
-
-  .hamburger {
-    display: block;
-    float: right;
-    margin-right: 20px;
-    cursor: pointer;
-    color: #e9ece4;
-    font-size: 2em;
-  }
-
-  input[type="checkbox"]:checked ~ ul {
-    display: block;
+@media screen and (max-width: 500px) {
+  main {
+    width: 100%;
+    
   }
   
-  .play {
-    width: 90%
   }
 
-  .dramatis_personae{
-    width: 90%;
-  }
-
-  li ul {
-    position: static;
-  }
-  nav ul li {
-    flex: 0 0 auto; 
-    width: 100%;
-  }
-
-
+  
 }
+
+
 
