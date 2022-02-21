@@ -220,11 +220,7 @@ input[type="checkbox"] {
 }
 
 
-/* @media screen and {max-width: 3000px
-    .play[
-      width 70%;
-    ]
-} */
+
 
 
 @media screen and (max-width: 700px) {
