@@ -3,13 +3,18 @@
 	<head>
 		<meta charset="utf-8" />
 		<meta http-equiv="X-UA-Compatible" content="IE=edge" />
-    <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+    	<meta name="viewport" content="width=device-width, initial-scale=1.0"/>
 		<title>kinglear</title>
 		<link rel="preconnect" href="https://fonts.googleapis.com"> 
 		<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin> 
 		<link href="https://fonts.googleapis.com/css2?family=EB+Garamond:ital@0;1&display=swap" rel="stylesheet">
 		<link href="kinglearwebresources/css/play.css" rel="stylesheet" type="text/css" />
-	
+		<script>
+			function hidemenu() {
+			  document.getElementById("toggle").checked = false;
+			}
+		  </script>
+	</head>
 	<body id="kinglear" lang="en-GB">
 		<nav>
 
@@ -17,7 +22,7 @@
 			<label for="toggle" class="hamburger">&#9776;</label>
 	  
 	  
-			<ul>
+			<ul id=“menu” onclick="hidemenu()">
 				<li class="Home"><a href="../index.html">Home</a></li>
 				<li class="TOC-Heading-1"><a href="kinglear.html#_idTextAnchor000">Dramatis Personae </a></li>
 				<li class="TOC-Heading-1"><a href="kinglear.html#_idTextAnchor001">Act I</a><ul><li class="TOC-Heading-2"><a href="kinglear.html#_idTextAnchor002"><span class="all-scenes">Scene I</span></a></li><li class="TOC-Heading-2"><a href="kinglear.html#_idTextAnchor003"><span class="all-scenes">Scene II</span></a></li><li class="TOC-Heading-2"><a href="kinglear.html#_idTextAnchor004"><span class="all-scenes">Scene III</span></a></li><li class="TOC-Heading-2"><a href="kinglear.html#_idTextAnchor005"><span class="all-scenes">Scene IV</span></a></li><li class="TOC-Heading-2"><a href="kinglear.html#_idTextAnchor006"><span class="all-scenes">Scene V</span></a></li></ul></li>
