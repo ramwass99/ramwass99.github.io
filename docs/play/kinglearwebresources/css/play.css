@@ -256,11 +256,13 @@ input[type="checkbox"] {
   li ul {
     position: static;
   }
+
   nav ul li {
     flex: 0 0 auto; 
     width: 100%;
   }
  
+  
     
 }
 
