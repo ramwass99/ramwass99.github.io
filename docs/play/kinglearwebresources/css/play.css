@@ -245,7 +245,7 @@ input[type="checkbox"] {
   }
   
   .play {
-    width: 90%
+    width: 90%;
   }
 
   .dramatis_personae{
@@ -258,7 +258,6 @@ input[type="checkbox"] {
   nav ul li {
     flex: 0 0 auto; 
     width: 100%;
-    
   }
  
     
