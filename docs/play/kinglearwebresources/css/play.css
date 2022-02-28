@@ -219,6 +219,23 @@ input[type="checkbox"] {
   display: none;
 }
 
+.backtotop {
+  position: fixed;
+  bottom: 2px;
+  right: 8px;
+  opacity: 0.9;
+}
+
+.backtotop a {
+  text-decoration: none;
+  font-size: 3em;
+  color: #6b7e47;
+}
+
+.backtotop a:hover {
+  color:#8f9e74
+}
+
 
 @media screen and (max-width: 700px) {
   nav ul {
@@ -227,7 +244,9 @@ input[type="checkbox"] {
     clear: right;
   }
 
-
+  html {
+    scroll-padding-top: 47px;
+  }
 
   .hamburger {
     display: block;
