@@ -78,11 +78,9 @@ button:hover {
 @media screen and (max-width: 500px) {
   main {
     width: 100%;
-    display: flex
+    display: flex;
     flex-wrap: wrap;
     flex-direction: column;
   }
-  
-  
 }
 
