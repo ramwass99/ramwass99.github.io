@@ -58,7 +58,7 @@ footer {
 }
 
 
-.playlink{ 
+.button{ 
   background-color: #e3debb;
   font-family: "EB Garamond", serif;
   text-decoration: none;
@@ -71,7 +71,7 @@ footer {
 }
 
 
-.playlink:hover {
+.button:hover {
   background-color: #5c5a39;
   color: #e3debb;
   box-shadow: 0 12px 16px 0 rgba(0,0,0,0.24), 0 17px 50px 0 rgba(0,0,0,0.19);
